@@ -1,0 +1,10 @@
+#!/bin/bash
+
+a=("$@")
+
+b=($(printf '%s ' ${a[@]} | rg '[ ][-]c' -r ' -E'))
+if [ $? -eq 0 ]; then
+  a=($(printf '%s ' ${b[@]} | rg '[ ][-]o[\s]*([^\s]*[.]cpp)[.]o' -r ' -o $1.i') '-E')
+fi
+/usr/bin/clang++ "$@" > /dev/null
+/usr/bin/clang++ ${a[@]}

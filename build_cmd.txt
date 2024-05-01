@@ -1,0 +1,2 @@
+ninja -C build
+SCANBUILD=$(pwd)/custom_scan-build.sh ninja -C build scan-build

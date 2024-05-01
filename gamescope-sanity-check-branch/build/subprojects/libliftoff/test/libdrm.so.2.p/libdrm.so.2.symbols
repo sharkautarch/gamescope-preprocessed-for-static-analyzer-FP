@@ -1,0 +1,35 @@
+ 0x000000000000000e (SONAME)             Library soname: [libdrm.so.2]
+drmCloseBufferHandle T
+drmModeAtomicAddProperty T
+drmModeAtomicAlloc T
+drmModeAtomicCommit T
+drmModeAtomicFree T
+drmModeAtomicGetCursor T
+drmModeAtomicSetCursor T
+drmModeFreeFB2 T
+drmModeFreeObjectProperties T
+drmModeFreePlane T
+drmModeFreePlaneResources T
+drmModeFreeProperty T
+drmModeFreePropertyBlob T
+drmModeFreeResources T
+drmModeGetFB2 T
+drmModeGetPlane T
+drmModeGetPlaneResources T
+drmModeGetProperty T
+drmModeGetPropertyBlob T
+drmModeGetResources T
+drmModeObjectGetProperties T
+liftoff_mock_commit_count B 8
+liftoff_mock_drm_create_fb T
+liftoff_mock_drm_create_plane T
+liftoff_mock_drm_crtc_id D 4
+liftoff_mock_drm_get_plane T
+liftoff_mock_drm_open T
+liftoff_mock_drm_set_fb_info T
+liftoff_mock_plane_add_compatible_layer T
+liftoff_mock_plane_add_in_formats T
+liftoff_mock_plane_add_property T
+liftoff_mock_plane_get_id T
+liftoff_mock_plane_get_layer T
+liftoff_mock_require_primary_plane B 1
